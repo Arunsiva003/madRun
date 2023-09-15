@@ -17,9 +17,7 @@ namespace dataframe{
         }
 
 
-        DataFrame read(){
-            DataFrame d;
-        }
+        DataFrame read(){}
     };
 
 
