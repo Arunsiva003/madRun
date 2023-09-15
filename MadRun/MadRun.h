@@ -23,19 +23,5 @@ namespace dataframe{
     };
 
 
-    dataframe::DataFrame read(std::string filename){
-        //read 
-        //vector - pushData
-        std::vector<std::any> push;
-        dataframe::DataFrame newData(push);
-        return newData;
-    }
-}
-
-
-int main(){
-    dataframe::DataFrame df = dataframe::read("madhan the great");
-
-
-
+    dataframe::DataFrame read(std::string filename){}
 }
